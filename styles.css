@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #00b488;
+}
+
+.vinebtn {
+  width: 10%;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  height: 70px;
+  border-radius: 15px;
+  font-size: 40px;
+  font-family: 'Pacifico', cursive;
+  background-color: #00b488;
+  border-color: #00b488;
+  color: white;
+}
+
+.vinebtn:hover {background-color: #00A37A}
+
+.vinebtn:active {
+  background-color: #00A37A;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.text {
+  margin: 8px;
+  color: #fff;
+  font-family: 'Major Mono Display', monospace;
+  font-size: 30px;
+}
+
+
+/* .new-inspo {
+  margin-bottom: 25vh;
+  height: 35vh;
+  width: 50%;
+  text-align: center;
+}
+
+.inspo {
+  margin-bottom: 7.5%;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.4px;
+} */
+
+/* .clearbtn {
+
+}
+
+.clear-inspo {
+  margin: 8px;
+  color: #fff;
+  font-family: 'Major Mono Display', monospace;
+  font-size: 14px;
+} */
+
+@media screen and (max-width: 900px) {
+
+  .vinebtn {
+    width: 45%;
+  }
+
+  .get-inspired {
+    font-size: 24px;
+  }
+
+  .new-inspo {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+
+  .vinebtn {
+    width: 65%;
+  }
+
+  .vines {
+    font-size: 24px;
+  }
+
+  .new-inspo {
+    width: 80%;
+  }
+
+}
